@@ -1,7 +1,7 @@
 require('dotenv').config()
 const mongoose = require('mongoose')
 let user = process.env.USER
-let pwd = process.env.PWD
+let pwd = process.env.PASSWORD
 let uri = process.env.URI
 let port = process.env.PORT
 // console.log(user, pwd, uri, port);
